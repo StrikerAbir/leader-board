@@ -55,7 +55,6 @@ hr{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     row-gap: 26px;
-    column-gap: ;
 
 }
 .blog{
@@ -78,4 +77,21 @@ hr{
 .blog-author a{
     color: #562EFF;
     text-decoration: none;
+}
+/* courses styles */
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-info {
+    display: flex;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
 }
